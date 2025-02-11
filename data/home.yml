@@ -1,0 +1,355 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero Image 1 - 3 [ heroImage1Section, heroImage2Section, heroImage3Section ]
+hero_image1:
+  enable: true
+  image: "images/edreyann2.png"
+
+hero_image2:
+  enable: true
+  image: "images/man2.jpg"
+
+hero_image3:
+  enable: true
+  image: "images/edreyann6.png"
+
+### Hero Video
+hero_video:
+  enable: true
+  video: "https://youtu.be/S4L8T2kFFck"
+
+### Hero Slider
+hero_slider:
+  enable: true
+  images:
+    - "images/girl.jpg"
+    - "images/girl3.jpg"
+    - "images/girl2.jpg"
+
+### Started [ startedSection ]
+started:
+  enable: true
+  title: "Edreyann <br />Iniego"
+  typed:
+    - "Visual Design"
+    - "Web Design"
+    - "Creatives Ads Design"
+  text: "I am an experienced Web and Graphic Designer with four years of professional experience at Diverse System Solutions. My expertise spans creating visually compelling designs and user-friendly web interfaces. Through a blend of creativity and technical skill, I aim to bring innovative design solutions to life."
+  button:
+    text: "Contact Me"
+    link: "#section-contacts"
+
+### About [ aboutSection ]
+about:
+  enable: true
+  title: "About Me"
+  subtitle: "My story"
+  text: "<p>Hello! I'm a dedicated Web and Graphic Designer with four years of professional experience at Diverse System Solutions. My journey in design has been driven by a passion for creating visually striking and functional web interfaces. I specialize in translating complex ideas into clear, aesthetically pleasing designs that enhance user experience and engagement.</p>
+
+<p>At Diverse System Solutions, I have honed my skills in a variety of design tools and technologies, enabling me to tackle a wide range of projects from concept to completion. My work is characterized by a keen eye for detail, a strong sense of typography, color theory, and a commitment to staying updated with the latest design trends and technologies.</p>
+
+<p>I thrive in collaborative environments, working closely with clients and team members to bring their visions to life. Whether it's designing a sleek website, developing a brand identity, or creating engaging digital graphics, I strive to deliver exceptional results that exceed expectations.</p>
+
+<p>Outside of work, I am continually exploring new design trends and techniques, always eager to learn and grow. My goal is to push the boundaries of creativity and innovation in every project I undertake.</p>
+
+<p>Feel free to reach out to me if you have a project in mind or just want to connect!</p>"
+  list:
+    - label: "Birthday"
+      value: "September 21, 1992"
+
+    - label: "Residence"
+      value: "Philippines"
+
+    - label: "Freelance"
+      value: "Available"
+
+    - label: "Address"
+      value: "SJDM Bulacan"
+
+    - label: "Phone"
+      value: "+63 915 455 9440"
+
+    - label: "E-mail"
+      value: "iniego21@gmail.com"
+
+### Services [ serviceSection ]
+services:
+  enable: true
+  title: "Services"
+  subtitle: "What I Do"
+  items:
+    - icon: "fab fa-chrome"
+      name: "Web <br />Development"
+      text: "The web development process includes: web design, web content, client-side / server-side scripting and network security configuration."
+
+    - icon: "fas fa-ad"
+      name: "Creative <br /> Ads"
+      text: "Designed custom graphics and visuals using Adobe Creative Suite (Photoshop, Illustrator, After effects) to support web content and marketing campaigns."
+
+    - icon: "fas fa-brush"
+      name: "UI/UX <br />Design"
+      text: "Utilized Figma for UX design, creating wireframes, interactive prototypes, and high-fidelity mockups to enhance the user experience."
+
+    - icon: "fas fa-palette"
+      name: "Logo <br />Design"
+      text: "Created logos to establish and strengthen brand identity for various clients."
+
+    - icon: "fas fa-video"
+      name: "Promotional <br />& Infographic Video"
+      text: "Produced engaging infographic videos using Adobe After Effects to effectively communicate complex information."
+
+### Pricing [ pricingSection ]
+pricing:
+  enable: false
+  title: "Pricing"
+  subtitle: "My Plans"
+  items:
+    - icon: "fas fa-star"
+      name: "Basic"
+      price: "39"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "yes"
+        - value: "Photography"
+          disable: "yes"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+    - icon: "fas fa-rocket"
+      name: "Premium"
+      price: "59"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "no"
+        - value: "Photography"
+          disable: "no"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+    - icon: "fas fa-space-shuttle"
+      name: "Ultimate"
+      price: "79"
+      price_before: "$"
+      price_after: "hour"
+      list:
+        - value: "Web Development"
+          disable: "no"
+        - value: "Advetising"
+          disable: "no"
+        - value: "Game Development"
+          disable: "no"
+        - value: "Music Writing"
+          disable: "no"
+        - value: "Photography & Video"
+          disable: "no"
+      button: "Buy Now"
+      link: "#section-contacts"
+
+### Resume [ resumeSection ]
+resume:
+  enable: true
+  experience:
+    title: "Experience"
+    subtitle: "Working with"
+    items:
+      - year: "Present"
+        name: "Web & Graphic Designer"
+        text: "Diverse System Solutions"
+
+      - year: "2017-2019"
+        name: "Customer Support Engineer"
+        text: "SITA"
+
+      - year: "2015-2017"
+        name: "Customer Support Engineer"
+        text: "RC_ARINC"
+
+
+  education:
+    title: "Education"
+    subtitle: "Studied at"
+    items:
+      - year: "2011-2012"
+        name: "Colegio de San Gabriel Arcangel"
+        text: "Bachelor of Science in Information Technology."
+
+
+### Skills [ skillSection ]
+skills:
+  enable: true
+  columns:
+    - type: "default" #skills progress type - default, dotted, circles
+      title: "Design Skills"
+      subtitle: "Creative ability"
+      slug: "design"
+      items:
+        - label: "Web Layout"
+          value: "90" #0-100 progress in %
+          text: "Created and maintained visually appealing, user-friendly websites "
+
+        - label: "Illustrations"
+          value: "70" #0-100 progress in %
+          text: "Designed custom graphics and visuals using Adobe Creative Suite (Photoshop, Illustrator) to support web content and marketing campaigns."
+
+        - label: "Photoshop"
+          value: "95" #0-100 progress in %
+          text: "Designed custom graphics and visuals using Adobe Creative Suite (Photoshop, Illustrator) to support web content and marketing campaigns."
+        
+        - label: "After Effects"
+          value: "85" #0-100 progress in %
+          text: "Produced engaging infographic videos using Adobe After Effects to effectively communicate complex information."
+
+        - label: "Figma"
+          value: "90" #0-100 progress in %
+          text: "Utilized Figma for UI/UX design, creating wireframes, interactive prototypes, and high-fidelity mockups to enhance the user experience."
+
+        - label: "Graphic Design"
+          value: "85" #0-100 progress in %
+          text: "Designed custom graphics and visuals using Adobe Creative Suite (Photoshop, Illustrator) to support web content and marketing campaigns."
+
+    - type: "dotted" #skills progress type - default, dotted, circles
+      title: "Language Skills"
+      subtitle: "Reading and writing"
+      slug: "lang"
+      items:
+        - label: "Tagalog"
+          value: "90" #0-100 progress in %
+          text: "Fluent in Tagalog, enabling effective communication with Tagalog-speaking clients and stakeholders."
+        - label: "English"
+          value: "70" #0-100 progress in %
+          text: "Fluent in Tagalog and English, enabling effective communication with diverse clients and stakeholders."
+
+
+    - type: "circles" #skills progress type - default, dotted, circles
+      title: "Coding Skills"
+      subtitle: "Developing on"
+      slug: "code"
+      items:
+        - label: "WordPress"
+          value: "90" #0-100 progress in %
+          text: "Developed and customized WordPress websites, ensuring ease of content management for clients."
+
+        - label: "PHP, MYSQL"
+          value: "75" #0-100 progress in %
+          text: "Built dynamic web applications using PHP and MySQL, enhancing website functionality and database management."
+
+        - label: "JavaScript"
+          value: "75" #0-100 progress in %
+          text: "Implemented dynamic features and functionality using JavaScript, improving user interactivity."
+
+        - label: "Bootstrap"
+          value: "90" #0-100 progress in %
+          text: "Utilized Bootstrap to design and develop responsive, mobile-first websites efficiently."
+
+        - label: "HTML, CSS"
+          value: "95" #0-100 progress in %
+          text: "Developed interactive UI elements using HTML and CSS, enhancing user engagement and site functionality."
+
+### Testimonials [ testimonialSection ]
+testimonials:
+  enable: false
+  title: "Reviews"
+  subtitle: "What customers say"
+  items:
+    - image: "images/testimonials/rev1.png"
+      name: "Joseph Mackey"
+      role: "Architect"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+    - image: "images/testimonials/rev2.png"
+      name: "James Green"
+      role: "Art Director"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+    - image: "images/testimonials/rev1.png"
+      name: "Joseph Mackey"
+      role: "Architect"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+    - image: "images/testimonials/rev2.png"
+      name: "James Green"
+      role: "Art Director"
+      text: "Excellent all around! What stood out most was Jake's excellent service. He made sure our order was placed in time, even though we were ordering on a holiday."
+
+### Clients [ clientSection ]
+clients:
+  enable: false
+  title: "Projects"
+  subtitle: "My partners"
+  items:
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client2.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client3.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client1.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client4.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client2.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client3.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client1.png"
+
+    - url: "https://www.bslthemes.site"
+      image: "images/clients/client4.png"
+
+### Portfolio [ portfolioSection ]
+#items generates from dir /content/portfolio/*
+portfolio:
+  enable: true
+  title: "Portfolio"
+  subtitle: "Latest works"
+
+### Contact [ contactSection ]
+contacts:
+  enable: true
+  title: "Contact"
+  subtitle: "Let's talk"
+  name: "Edreyann Iniego"
+  subname: "Web and Graphic Designer"
+  signature: "Edreyann Iniego"
+  list:
+    - label: "Birthday:"
+      value: "September 21, 1992"
+
+    - label: "Residence:"
+      value: "Philippines"
+
+    - label: "Freelance:"
+      value: "Available"
+
+    - label: "Address:"
+      value: "SJDM Bulacan"
+
+    - label: "Phone:"
+      value: "+63 915 455 9440"
+
+    - label: "E-mail:"
+      value: "iniego21@gmail.com"
